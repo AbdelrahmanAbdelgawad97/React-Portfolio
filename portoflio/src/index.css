@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    list-style: none;
+}
+
+:root {
+    --main-dark-color: #2c3e50;
+    --very-dark-color: #1a252f;
+    --light-green-color: #1abc9c;
+    --white-color: white;
+}
+
+.main-bg-color {
+    background-color: var(--main-dark-color);
+}
+
+.footer-bg-color {
+    background-color: var(--very-dark-color);
+}
+
+.lightGreen-bg-color {
+    background-color: var(--light-green-color);
+}
+
+.text-dark-color {
+    color: var(--main-dark-color);
+}
+
+.section-hight{
+    min-height: calc(100vh - 20px);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+
+.letter-space {
+    letter-spacing: 16px;
+}
+
+
+.transition50 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-15 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX( -50%);
+  -webkit-transform: translateX( -50%);
+  -moz-transform: translateX( -50%);
+  -ms-transform: translateX( -50%);
+  -o-transform: translateX( -50%);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    background-color: var(--light-green-color);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
